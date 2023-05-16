@@ -1,0 +1,354 @@
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer nav li {
+  margin-left: 1rem;
+}
+
+footer nav li:first-child {
+  margin-left: 0;
+}
+
+footer nav a {
+  color: white;
+}
+
+footer nav a:hover{
+	color: rgb(100, 170, 300);
+	transition: color 0.3s ease-in-out;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+body {
+  background-color: #191919;
+  color: black;
+  padding-block: none;
+  font-size: 1.1rem;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+}
+header{
+	background: rgb(35, 35, 35);
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+header form input[type="search"]{
+	padding: 0.5rem;
+	border: none;
+	border-radius: 1rem;
+	background-color: white;
+}
+
+h1{
+	text-align: center;
+	text-decoration: none;
+	color: #0077ff;
+	margin-left: 1rem;
+}
+
+h1:hover{
+	transform: scale(1.2);
+	transition: transform 0.35s ease-in-out;
+}
+
+img{
+	margin: 1rem;
+	padding: 1rem;
+}
+img:hover{
+	background-color: rgb(10, 40, 70);
+	color: white;
+}
+li{
+	padding-bottom: 10px ;
+}
+.login-form {
+  	max-width: 500px;
+  	margin: 0 auto;
+  	padding: 20px;
+  	background-color: rgb(50, 50, 50);
+  	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  	font-size: 28px;
+  	margin-bottom: 20px;
+}
+
+.login-form label {
+  	display: block;
+  	font-size: 16px;
+  	font-weight: bold;
+  	margin-bottom: 5px;
+  	color: rgb(100, 170, 300);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  	width: 100%;
+  	padding: 10px;
+  	margin-bottom: 20px;
+  	border: 1px solid #CCCCCC;
+  	border-radius: 5px;
+  	font-size: 16px;
+}
+
+.login-form button {
+  	display: block;
+  	width: 100%;
+  	padding: 10px;
+  	background-color: #4285F4;
+  	color: #FFFFFF;
+  	border: none;
+  	border-radius: 5px;
+  	font-size: 18px;
+  	font-weight: bold;
+  	cursor: pointer;
+  	transition: background-color 0.3s ease-in-out;
+}
+
+.login-form button:hover {
+  	background-color: #3367D6;
+}
+
+.login-form fieldset {
+  	border: none;
+  	margin-bottom: 20px;
+}
+
+.login-form legend {
+  	font-size: 20px;
+  	font-weight: bold;
+  	margin-bottom: 10px;
+}
+
+/*::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(10, 40, 120);
+  border: none;
+  border-radius: 1rem;
+}*/
+
+
+#input{
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(100, 170, 300);
+  background-color: rgb(70, 70, 70);
+  color: rgb(100, 170, 300);
+}
+
+#input:focus {outline: 0px}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: rgb(70, 70, 70);
+  min-width: 230px;
+  border: 1px solid #ddd;
+}
+
+.dropdowncontent a {
+  color: rgb(100, 170, 300);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover {
+	background-color: rgb(50, 50, 50);
+	transition: background-color 0.3s ease-in-out;
+}
+
+.show {display:block;}
+
+.title:hover{
+	background-color: rgb(90,80,60);
+}
+.imgwrap {
+            width: 200px;
+            height: 200px;
+            border-radius: 30%;
+            text-align: center;
+            font-size: 30px;
+            float: left;
+            font-weight: bold;
+            shape-outside: circle();
+            color: white;
+        }
+
+.homepageimg{
+            width: 150px;
+            height: 150px;
+            border-radius: 30%;
+            text-align: center;
+            font-size: 30px;
+            float: left;
+            font-weight: bold;
+            color: white;
+        }
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.switch {
+  display: block;
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f4f5;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon,1.4em);
+  width: var(--size-of-icon,1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset,0.3em);
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+  ;
+ transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #303136;
+}
+
+input:checked + .slider:before {
+  left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+  background: #303136;
+  /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+button {
+  --color: #0077ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+  background-color: transparent;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: white;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+button:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+.type{
+	color: #0077ff;
+}

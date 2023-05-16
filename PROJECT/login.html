@@ -1,0 +1,45 @@
+<html>
+<head>
+	<script src=".\Script.js"></script>
+	<link rel="stylesheet" href=".\Style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+</head>
+<body>
+	<header>
+		<a href=".\homepage.html"><h1>AnimeWiki</h1></a>
+      <label class="switch">
+            <input type="checkbox">
+            <span class="slider" onclick="myFunction()"></span>
+      </label>
+		<div id="button">
+			<div id="button">
+			<div class="dropdown">
+  				<button onclick="Drop()" class="search">Search</button>
+  				<div id="Droplist" class="dropdowncontent" onmouseleave="disappear()">
+    				<input type="text" placeholder="Search.." id="input" onkeyup="filter()">
+    				<a href=".\Videoplayer.html">A</a>
+    				<a href=".\Videoplayer.html">B</a>
+    				<a href=".\Videoplayer.html">C</a>
+    				<a href=".\Videoplayer.html">D</a>
+    				<a href=".\Videoplayer.html">E</a>
+    				<a href=".\Videoplayer.html">F</a>
+    				<a href=".\Videoplayer.html">G</a>
+  				</div>
+			</div>
+			<a href=""><button>Login</button></a>
+		</div>
+	</header>
+		<form action=".\homepage.html" class='login-form'>
+			<label for='user'>Username: </label>
+			<input type="text" name="name" >
+			<br>
+			<label for="pass">Password: </label>
+			<input type="text" name="pass" >
+			<br>
+			<button type='submit'>Login</button>
+	</form>
+</body>
+</html>
+        
